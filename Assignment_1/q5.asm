@@ -1,11 +1,12 @@
-lhld 4000h
-xchg 
-lhld 4002h
+lhld 2000h ;1st no at 2000 and 2001
+mov B,H
+mov C,L
+lhld 2002h ;2nd no
+mvi E,00h
+dad B
+jnc l1
+inr E
+l1: shld 2004h
 mov A,E
-add L
-mov L,A
-mov A,D
-adc H
-mov H,A
-shld 4004h
+sta 2006h
 hlt
