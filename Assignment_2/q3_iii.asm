@@ -1,5 +1,6 @@
 LDA 204Fh
 MOV B,A
+DCR B
 L1: MOV C,B
     LXI H,2050H
     L2: MOV A,M
