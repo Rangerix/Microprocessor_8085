@@ -3,7 +3,7 @@ mov B,H
 mov C,L
 lhld 2002h ;2nd no
 mvi E,00h
-dad B
+dad B		;16 bit addition
 jnc l1
 inr E
 l1: shld 2004h
