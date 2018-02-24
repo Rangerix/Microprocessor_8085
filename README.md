@@ -14,4 +14,11 @@
 		iii.Sort in ascending order
 		iv. Sort in descending order.
 	4. Seperate even and odd numbers from a list of N numbers.
-	5. Search a number in a list of n numbers. If not present , store FF.
+	5. Search a number in a list of n numbers. If present store the position, else store FF .
+	
+### ASSUGNMENT 3:
+	1. N (stored in 2500h) numbers are stored from 2501h. Store the numbers from 2600h if D0 or D7 is 1. 
+	2. N (stored in 21FFh) numbers are stored from 2200h. Store at 2500h, sum of the numbers with LSB and MSB 1.
+	3. Generate N( stored in 2060h)th Fibonacci number using function. Store at 2050h.
+	4. 
+	5. Flash "BCSE II" in the address and data fields with a flashing rate of .5 sec.
