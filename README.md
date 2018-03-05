@@ -4,7 +4,7 @@
 	3. Add lowers 4 bits of a number with higher 4 bits.
 	4. Count number of 1s and 0s in a number (bit - representation).
 	5. Add two 16 bit numbers.
-	
+
 ### ASSIGNMENT 2:
 	1. Two numbers EA and BD are stored. Assemble them as AB.
 	2. Multiply two numbers.
@@ -15,10 +15,10 @@
 		iv. Sort in descending order.
 	4. Seperate even and odd numbers from a list of N numbers.
 	5. Search a number in a list of n numbers. If present store the position, else store FF .
-	
+
 ### ASSUGNMENT 3:
 	1. N (stored in 2500h) numbers are stored from 2501h. Store the numbers from 2600h if D0 or D7 is 1. 
 	2. N (stored in 21FFh) numbers are stored from 2200h. Store at 2500h, sum of the numbers with LSB and MSB 1.
 	3. Generate N( stored in 2060h)th Fibonacci number using function. Store at 2050h.
-	4. 
+	4. Transfer N( stored at 201Eh) numbers from location1 to location2( location2> location1 and they are overlapping).
 	5. Flash "BCSE II" in the address and data fields with a flashing rate of .5 sec.
